@@ -1,0 +1,31 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav {
+    max-width: 1200px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    font-size: 15px;
+    justify-content: space-between;
+}
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.photo:nth-child(2n-1){
+    margin-right: 20px;
+}
+.photo_link{
+    display: inline;
+}
+.displey__img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
